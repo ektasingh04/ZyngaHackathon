@@ -21,23 +21,27 @@ A Flask-based web application that provides identity and age verification servic
 ## Installation
 
 1. Clone the repository:
+
 ```bash
 git clone <repository-url>
 cd identity-verification-system
 ```
 
 2. Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
 
 3. Set up environment variables:
+
 ```bash
 export SESSION_SECRET="your-secret-key"
 export DATABASE_URL="sqlite:///verification.db"  # Optional
 ```
 
 4. Run the application:
+
 ```bash
 python main.py
 ```
@@ -82,13 +86,7 @@ The application follows a traditional MVC pattern:
 - Session-based verification tracking
 - No persistent storage of sensitive biometric data
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
+## Sample Images
 
 ## License
 
