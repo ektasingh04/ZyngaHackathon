@@ -86,6 +86,10 @@ The application follows a traditional MVC pattern:
 - Session-based verification tracking
 - No persistent storage of sensitive biometric data
 
+## Dataset
+This project is based on a dataset compiled from various sources, including publicly available images from the web as well as real-life captured photographs and ID documents.
+🔗 https://drive.google.com/drive/folders/1iSOX_RAZ6DcgybP4jGcydqi-pz6ziC0e
+
 ## Sample Images
 
 Below are screenshots showcasing key parts of the Identity Verification System in action:
