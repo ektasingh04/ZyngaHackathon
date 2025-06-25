@@ -88,6 +88,45 @@ The application follows a traditional MVC pattern:
 
 ## Sample Images
 
+Below are screenshots showcasing key parts of the Identity Verification System in action:
+
+
+### 🔹 Homepage
+![image](https://github.com/user-attachments/assets/95c91168-63ac-4527-915d-4897962ff118)
+*The landing page with an option to start a new verification.*
+
+---
+
+### 🔹 Aadhar Upload Step
+![image](https://github.com/user-attachments/assets/3b185575-01bf-4e5b-8597-7e18bcaa7bb9)
+
+
+![image](https://github.com/user-attachments/assets/1ad51d8d-5498-4c72-9c1d-08d0ab57b586)
+
+*User is asked to upload an Aadhar card image for OCR-based DOB extraction.*
+
+---
+
+### 🔹 Selfie Capture Interface
+![image](https://github.com/user-attachments/assets/73a946fe-fe87-4a9e-a365-ecda5b4aec32)
+
+*Real-time camera access to capture a selfie for face verification.*
+
+---
+
+### 🔹 Verification Result
+###### If someone attempts to deceive the system using a photograph of the person instead of a live selfie, the verification is rejected.
+![WhatsApp Image 2025-06-25 at 20 38 53_31e95b69](https://github.com/user-attachments/assets/e8c8ec5b-1d34-4b57-809e-dd20383e2bcf)
+###### If the uploaded photo does not meet the required quality standards, the system flags the issue and prompts the user to start a new verification process.
+![image](https://github.com/user-attachments/assets/3aa15475-4993-4233-a2ca-d6d16f80aa64)
+
+
+###### If the image quality is acceptable and the person's face matches the ID, the verification is successfully completed.
+![image](https://github.com/user-attachments/assets/afca3874-8999-4833-b455-3998f0a9199c)
+*Final results showing age verification status, OCR-extracted DOB, and face match result.*
+
+---
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
